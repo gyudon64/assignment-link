@@ -1,0 +1,445 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.sect-cont {
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+section {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 0, 179);
+}
+
+.ttl {
+    position: absolute;
+    width: calc(100% - 55px);
+    height: 39px;
+    left: 55px;
+    top: 45px;
+
+    font-family: sans-serif;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+/* presentation */
+
+.present-ttl {
+    position: absolute;
+    width: 201px;
+    height: 39px;
+    left: 239px;
+    top: 442px;
+
+    font-family: sans-serif;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+
+    color: #ffffff;
+}
+
+.present-btn {
+    position: absolute;
+    width: 231px;
+    height: 65px;
+    left: 224px;
+    top: 497px;
+
+    background-color: #7101bc;
+}
+
+.present-btn:hover {
+    cursor: pointer;
+    background-color: black;
+}
+
+/* git */
+
+.git-ttl {
+    position: absolute;
+    width: 108px;
+    height: 39px;
+    left: 285px;
+    top: 235px;
+
+    font-family: sans-serif;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+
+    color: #ffffff;
+}
+
+.git-btn {
+    position: absolute;
+    width: 231px;
+    height: 65px;
+    left: 224px;
+    top: 290px;
+
+    background-color: #7101bc;
+}
+
+.git-btn:hover {
+    cursor: pointer;
+    background-color: black;
+}
+
+/* A1 */
+
+.A1-ttl {
+    position: absolute;
+    width: 213px;
+    height: 39px;
+    left: 865px;
+    top: 165px;
+
+    font-family: sans-serif;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+
+    color: #ffffff;
+}
+
+.A1-btn {
+    position: absolute;
+    width: 231px;
+    height: 65px;
+    left: 856px;
+    top: 217px;
+
+    background-color: #7101bc;
+}
+
+.A1-btn:hover {
+    cursor: pointer;
+    background-color: black;
+}
+
+/* A2 */
+
+.A2-ttl {
+    position: absolute;
+    width: 217px;
+    height: 39px;
+    left: 863px;
+    top: 336px;
+
+    font-family: sans-serif;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+
+    color: #ffffff;
+}
+
+.A2-btn {
+    position: absolute;
+    width: 231px;
+    height: 65px;
+    left: 856px;
+    top: 391px;
+
+    background-color: #7101bc;
+}
+
+.A2-btn:hover {
+    cursor: pointer;
+    background-color: black;
+}
+
+/* A3A4 */
+
+.A3A4-ttl {
+    position: absolute;
+    width: 276px;
+    height: 39px;
+    left: 833px;
+    top: 517px;
+
+    font-family: sans-serif;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+
+    color: #ffffff;
+}
+
+.A3A4-btn {
+    position: absolute;
+    width: 231px;
+    height: 65px;
+    left: 856px;
+    top: 565px;
+
+    background-color: #7101bc;
+}
+
+.A3A4-btn:hover {
+    cursor: pointer;
+    background-color: black;
+}
+
+/* button */
+
+.btn-txt {
+    position: absolute;
+    width: 118px;
+    height: 29px;
+    left: calc(50% - 59px);
+    top: calc(50% - 14.5px);
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+@media(max-width: 600px) {
+
+.sect-cont {
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+}
+    
+section {
+    position: absolute;
+    width: 100%;
+    height: 1161px;
+}
+
+.ttl {
+    position: absolute;
+    width: 100%;
+    height: 29px;
+    left: 0px;
+    top: 53px;
+
+    font-family: sans-serif;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* presentation */
+
+.present-ttl {
+    position: absolute;
+    width: 201px;
+    height: 39px;
+    left: 200px;
+    top: 353px;
+
+    font-family: sans-serif;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+
+    color: #ffffff;
+}
+
+.present-btn {
+    position: absolute;
+    width: 231px;
+    height: 65px;
+    left: 185px;
+    top: 408px;
+
+    background-color: #7101bc;
+}
+
+.present-btn:hover {
+    cursor: pointer;
+    background-color: black;
+}
+
+/* git */
+
+.git-ttl {
+    position: absolute;
+    width: 108px;
+    height: 39px;
+    left: 246px;
+    top: 168px;
+
+    font-family: sans-serif;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+
+    color: #ffffff;
+}
+
+.git-btn {
+    position: absolute;
+    width: 231px;
+    height: 65px;
+    left: 185px;
+    top: 223px;
+
+    background-color: #7101bc;
+}
+
+.git-btn:hover {
+    cursor: pointer;
+    background-color: black;
+}
+
+/* A1 */
+
+.A1-ttl {
+    position: absolute;
+    width: 213px;
+    height: 39px;
+    left: 194px;
+    top: 556px;
+
+    font-family: sans-serif;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+
+    color: #ffffff;
+}
+
+.A1-btn {
+    position: absolute;
+    width: 231px;
+    height: 65px;
+    left: 185px;
+    top: 608px;
+
+    background-color: #7101bc;
+}
+
+.A1-btn:hover {
+    cursor: pointer;
+    background-color: black;
+}
+
+/* A2 */
+
+.A2-ttl {
+    position: absolute;
+    width: 217px;
+    height: 39px;
+    left: 192px;
+    top: 738px;
+
+    font-family: sans-serif;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+
+    color: #ffffff;
+}
+
+.A2-btn {
+    position: absolute;
+    width: 231px;
+    height: 65px;
+    left: 185px;
+    top: 793px;
+
+    background-color: #7101bc;
+}
+
+.A2-btn:hover {
+    cursor: pointer;
+    background-color: black;
+}
+
+/* A3A4 */
+
+.A3A4-ttl {
+    position: absolute;
+    width: 276px;
+    height: 39px;
+    left: 162px;
+    top: 923px;
+
+    font-family: sans-serif;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+
+    color: #ffffff;
+}
+
+.A3A4-btn {
+    position: absolute;
+    width: 231px;
+    height: 65px;
+    left: 185px;
+    top: 971px;
+
+    background-color: #7101bc;
+    margin-bottom: 140px;
+}
+
+.A3A4-btn:hover {
+    cursor: pointer;
+    background-color: black;
+}
+
+/* button */
+
+.btn-txt {
+    position: absolute;
+    width: 118px;
+    height: 29px;
+    left: calc(50% - 59px);
+    top: calc(50% - 14.5px);
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+}
